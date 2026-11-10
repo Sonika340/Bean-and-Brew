@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" aria-label="Vanilla Nitro Cold Brew">
+  <defs>
+    <linearGradient id="coldBrewDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3D2314" />
+      <stop offset="100%" stop-color="#190D07" />
+    </linearGradient>
+    <linearGradient id="nitroHead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F5EBE1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F3E9DF" />
+  <circle cx="200" cy="150" r="120" fill="#FAF6F0" opacity="0.7" />
+
+  <!-- Shadow -->
+  <ellipse cx="200" cy="255" rx="75" ry="14" fill="#3D2314" opacity="0.18" />
+
+  <!-- Highball Glass Body -->
+  <path d="M 152 75 L 160 240 C 162 248 180 252 200 252 C 220 252 238 248 240 240 L 248 75 Z" fill="url(#coldBrewDark)" stroke="#3D2314" stroke-width="3" />
+  
+  <!-- Thick glass base -->
+  <path d="M 159 230 L 160 242 C 162 249 180 252 200 252 C 220 252 238 249 240 242 L 241 230 Z" fill="#FFFFFF" opacity="0.3" />
+
+  <!-- Clear Ice Cubes inside cold brew -->
+  <g stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.6" fill="#FAF6F0" fill-opacity="0.15">
+    <rect x="175" y="125" width="48" height="42" rx="6" transform="rotate(-12 175 125)" />
+    <rect x="180" y="180" width="45" height="40" rx="6" transform="rotate(15 180 180)" />
+  </g>
+
+  <!-- Nitro Cascading Microbubbles -->
+  <g fill="#C48046" opacity="0.4">
+    <circle cx="175" cy="140" r="2" />
+    <circle cx="185" cy="160" r="1.5" />
+    <circle cx="215" cy="150" r="2.5" />
+    <circle cx="225" cy="175" r="2" />
+    <circle cx="195" cy="210" r="2" />
+    <circle cx="170" cy="195" r="1.5" />
+  </g>
+
+  <!-- Thick Nitro Crema Head on top -->
+  <path d="M 152 75 L 153 105 C 170 110 230 110 247 105 L 248 75 Z" fill="url(#nitroHead)" />
+  <ellipse cx="200" cy="75" rx="48" ry="12" fill="#FFFFFF" stroke="#E5D5C5" stroke-width="2" />
+
+  <!-- Glass Sheen / Highlight -->
+  <path d="M 160 85 L 166 235" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.5" />
+
+  <!-- Striped eco paper straw -->
+  <path d="M 220 30 L 220 180" stroke="#FAF6F0" stroke-width="8" stroke-linecap="round" />
+  <path d="M 220 30 L 220 180" stroke="#C48046" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 12" />
+</svg>

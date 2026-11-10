@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-label="Bean &amp; Brew Coffee Cup Logo">
+  <defs>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C48046" />
+      <stop offset="100%" stop-color="#3D2314" />
+    </linearGradient>
+    <linearGradient id="steamGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#C48046" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#F6EDE3" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <!-- Saucer -->
+  <ellipse cx="50" cy="84" rx="34" ry="7" fill="#3D2314" opacity="0.18" />
+  <ellipse cx="50" cy="80" rx="32" ry="6" fill="#E5D5C5" stroke="#3D2314" stroke-width="3" />
+  
+  <!-- Cup Body -->
+  <path d="M 24 38 L 29 70 C 31 77 40 80 50 80 C 60 80 69 77 71 70 L 76 38 Z" fill="url(#cupGrad)" stroke="#23140C" stroke-width="3" />
+  
+  <!-- Cup Rim -->
+  <ellipse cx="50" cy="38" rx="26" ry="6" fill="#F3E9DF" stroke="#23140C" stroke-width="3" />
+  <ellipse cx="50" cy="38" rx="22" ry="4" fill="#23140C" />
+  <ellipse cx="50" cy="38" rx="19" ry="3" fill="#C48046" opacity="0.6" />
+
+  <!-- Cup Handle -->
+  <path d="M 72 45 C 84 45 86 64 70 65" fill="none" stroke="#3D2314" stroke-width="5" stroke-linecap="round" />
+  
+  <!-- Coffee Bean Emblem on Cup -->
+  <ellipse cx="50" cy="58" rx="8" ry="11" fill="#FAF6F0" transform="rotate(-20 50 58)" />
+  <path d="M 47 48 C 53 54 47 62 53 68" fill="none" stroke="#3D2314" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Steam curves -->
+  <path d="M 40 30 Q 37 20 44 14" fill="none" stroke="url(#steamGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M 50 28 Q 54 18 48 10" fill="none" stroke="url(#steamGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M 60 30 Q 64 22 58 14" fill="none" stroke="url(#steamGrad)" stroke-width="3" stroke-linecap="round" />
+</svg>

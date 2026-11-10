@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" aria-label="Artisanal Café Latte">
+  <defs>
+    <linearGradient id="cupCeramic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E5D5C5" />
+    </linearGradient>
+    <linearGradient id="coffeeSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C4E23" />
+      <stop offset="100%" stop-color="#3D2314" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F3E9DF" />
+  <circle cx="200" cy="150" r="120" fill="#FAF6F0" opacity="0.7" />
+
+  <!-- Saucer Shadow & Plate -->
+  <ellipse cx="200" cy="225" rx="130" ry="35" fill="#3D2314" opacity="0.15" />
+  <ellipse cx="200" cy="215" rx="125" ry="32" fill="url(#cupCeramic)" stroke="#CBB49E" stroke-width="2" />
+  <ellipse cx="200" cy="215" rx="100" ry="24" fill="#FDFBF7" stroke="#E5D5C5" stroke-width="1.5" />
+
+  <!-- Ceramic Cup -->
+  <path d="M 120 130 L 140 205 C 145 215 170 220 200 220 C 230 220 255 215 260 205 L 280 130 Z" fill="url(#cupCeramic)" stroke="#5A3821" stroke-width="3" />
+  
+  <!-- Cup Handle -->
+  <path d="M 275 145 C 315 145 315 190 262 195" fill="none" stroke="#5A3821" stroke-width="8" stroke-linecap="round" />
+  <path d="M 275 145 C 315 145 315 190 262 195" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Top Rim of Cup -->
+  <ellipse cx="200" cy="130" rx="80" ry="24" fill="#FAF6F0" stroke="#5A3821" stroke-width="3" />
+  <!-- Coffee Fill -->
+  <ellipse cx="200" cy="130" rx="72" ry="20" fill="url(#coffeeSurface)" />
+
+  <!-- Latte Art Tulip / Rosette Motif -->
+  <!-- Stem -->
+  <path d="M 200 144 L 200 116" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+  <!-- Lower Petals -->
+  <path d="M 175 136 Q 200 146 225 136 Q 200 138 175 136 Z" fill="#FFFFFF" />
+  <path d="M 180 128 Q 200 136 220 128 Q 200 130 180 128 Z" fill="#FFFFFF" />
+  <!-- Heart Cap -->
+  <path d="M 190 122 C 185 115 195 112 200 117 C 205 112 215 115 210 122 Q 200 127 190 122 Z" fill="#FFFFFF" />
+
+  <!-- Steam wisps -->
+  <path d="M 180 90 Q 170 70 185 55" fill="none" stroke="#FAF6F0" stroke-width="2.5" stroke-linecap="round" opacity="0.7" />
+  <path d="M 205 85 Q 215 65 200 48" fill="none" stroke="#FAF6F0" stroke-width="2.5" stroke-linecap="round" opacity="0.7" />
+</svg>

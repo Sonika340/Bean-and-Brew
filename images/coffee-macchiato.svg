@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" aria-label="Signature Caramel Macchiato">
+  <defs>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="20%" stop-color="#FDFBF7" stop-opacity="0.2" />
+      <stop offset="80%" stop-color="#FFFFFF" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.5" />
+    </linearGradient>
+    <linearGradient id="espressoLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3D2314" />
+      <stop offset="100%" stop-color="#23140C" />
+    </linearGradient>
+    <linearGradient id="milkLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0" />
+      <stop offset="100%" stop-color="#E5D5C5" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F3E9DF" />
+  <circle cx="200" cy="150" r="120" fill="#FAF6F0" opacity="0.7" />
+
+  <!-- Wooden Coaster Shadow -->
+  <ellipse cx="200" cy="255" rx="90" ry="16" fill="#3D2314" opacity="0.15" />
+  <!-- Wooden Coaster -->
+  <ellipse cx="200" cy="248" rx="85" ry="14" fill="#C48046" stroke="#5A3821" stroke-width="3" />
+  <ellipse cx="200" cy="245" rx="78" ry="11" fill="#DDB892" />
+
+  <!-- Tall Glass Shape -->
+  <!-- Milk Layer (Bottom) -->
+  <path d="M 148 150 L 158 235 C 160 240 175 244 200 244 C 225 244 240 240 242 235 L 252 150 Z" fill="url(#milkLayer)" />
+  
+  <!-- Rich Espresso Swirl Layer (Middle) -->
+  <path d="M 142 90 L 148 150 C 170 162 230 152 252 150 L 258 90 Z" fill="url(#espressoLayer)" />
+
+  <!-- Foamed Milk Cap (Top) -->
+  <path d="M 138 60 L 142 90 C 160 96 240 96 258 90 L 262 60 Z" fill="#FFFFFF" />
+  
+  <!-- Whipped Foam Cloud Top -->
+  <ellipse cx="200" cy="55" rx="64" ry="16" fill="#FAF6F0" stroke="#E5D5C5" stroke-width="2" />
+  
+  <!-- Caramel Drizzle criss-cross on foam -->
+  <path d="M 160 52 Q 180 58 200 48 Q 220 58 240 50" fill="none" stroke="#C48046" stroke-width="5" stroke-linecap="round" />
+  <path d="M 170 45 Q 185 62 200 54 Q 215 62 230 46" fill="none" stroke="#C48046" stroke-width="4" stroke-linecap="round" />
+  <path d="M 185 40 Q 200 65 215 42" fill="none" stroke="#C48046" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Glass Sheen & Outline -->
+  <path d="M 136 55 L 158 238 C 162 245 178 248 200 248 C 222 248 238 245 242 238 L 264 55 Z" fill="url(#glassGrad)" stroke="#3D2314" stroke-width="3" />
+
+  <!-- Fresh Coffee Beans on Coaster -->
+  <g transform="translate(110, 240)">
+    <ellipse cx="10" cy="10" rx="9" ry="6" fill="#3D2314" transform="rotate(-30 10 10)" />
+    <path d="M 5 12 C 10 11 10 9 15 8" stroke="#FAF6F0" stroke-width="1.5" fill="none" />
+  </g>
+  <g transform="translate(270, 235)">
+    <ellipse cx="10" cy="10" rx="8" ry="5.5" fill="#5A3821" transform="rotate(25 10 10)" />
+    <path d="M 5 9 C 9 10 11 10 15 11" stroke="#FAF6F0" stroke-width="1.5" fill="none" />
+  </g>
+</svg>

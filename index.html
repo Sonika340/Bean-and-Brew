@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bean & Brew - Artisanal coffee, fresh bakery delights, and a warm neighborhood café experience.">
+  <title>Bean &amp; Brew | Artisanal Coffee &amp; Bakery</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Shared Header & Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-wrapper" aria-label="Main Navigation">
+        <!-- Logo -->
+        <a href="index.html" class="brand-logo" aria-label="Bean and Brew Home">
+          <img src="images/logo.svg" alt="" width="38" height="38" aria-hidden="true">
+          <span>Bean <span class="amp">&amp;</span> Brew</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="reservation.html" class="nav-link">Reservation</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Desktop Action CTA -->
+        <div class="nav-actions">
+          <a href="reservation.html" class="btn btn-primary">Book a Table</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Banner -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <span class="badge">Artisanal Coffee &amp; Bakery</span>
+            <h1 id="heroTitle" class="hero-title">Where Every Cup Tells a <span class="highlight">Story</span></h1>
+            <p class="hero-description">
+              Step into a warm sanctuary of rich aromas and mindful moments. We roast single-origin beans in-house and bake golden flaky pastries fresh every sunrise.
+            </p>
+            <div class="hero-buttons">
+              <a href="menu.html" class="btn btn-primary">Explore Menu</a>
+              <a href="reservation.html" class="btn btn-secondary">Reserve a Table</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-image-wrapper">
+              <img src="images/hero-cafe.svg" alt="Cozy interior of Bean and Brew coffee shop with bar counter and espresso machine" width="800" height="600">
+            </div>
+            <div class="hero-badge">
+              <div class="hero-badge-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                </svg>
+              </div>
+              <div class="hero-badge-text">
+                <strong>100% Specialty Arabica</strong>
+                <span>Ethically Sourced &amp; Small-Batch Roasted</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Short Intro Section -->
+    <section class="section" aria-labelledby="introTitle">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Welcome to Bean &amp; Brew</span>
+          <h2 id="introTitle" class="section-title">A Warm Haven for Coffee Lovers</h2>
+          <p class="section-subtitle">
+            Founded with a deep love for honest craftsmanship, Bean &amp; Brew is more than a café—it’s your neighborhood living room. Whether you’re diving into a morning espresso or savoring an afternoon sweet treat, you belong here.
+          </p>
+        </div>
+
+        <!-- 3 Café Perks -->
+        <div class="perks-grid">
+          <article class="perk-item">
+            <div class="perk-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/>
+              </svg>
+            </div>
+            <h3 class="perk-title">In-House Micro Roasting</h3>
+            <p class="perk-desc">Carefully dialed roast profiles that honor the distinct terroir and sweetness of every single-origin bean.</p>
+          </article>
+
+          <article class="perk-item">
+            <div class="perk-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+              </svg>
+            </div>
+            <h3 class="perk-title">Scratch Bakery</h3>
+            <p class="perk-desc">Laminated croissants, savory breakfast bites, and delicate cakes made fresh every single morning.</p>
+          </article>
+
+          <article class="perk-item">
+            <div class="perk-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/>
+              </svg>
+            </div>
+            <h3 class="perk-title">Cozy Workspace &amp; Wi-Fi</h3>
+            <p class="perk-desc">High-speed fiber connectivity, sunlit seating corners, and power outlets for your productive sessions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 Featured Items Section -->
+    <section class="section section-alt" aria-labelledby="featuredTitle">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Handcrafted Favorites</span>
+          <h2 id="featuredTitle" class="section-title">Our Featured Selections</h2>
+          <p class="section-subtitle">
+            Curated tastes that our patrons fall in love with daily.
+          </p>
+        </div>
+
+        <div class="feature-cards-grid">
+          <!-- Featured Item 1: Caramel Macchiato -->
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="images/coffee-macchiato.svg" alt="Signature Caramel Macchiato served with layered espresso and oat milk" width="400" height="300">
+              <span class="card-tag">Barista Pick</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Caramel Macchiato</h3>
+                <span class="card-price">$5.50</span>
+              </div>
+              <p class="card-text">
+                Velvety steamed oat milk marked with a bold double shot of espresso, finished with house-cooked amber caramel drizzle.
+              </p>
+              <div class="card-meta">
+                <span>Category: Coffee</span>
+                <span class="menu-dietary-badge">Vegetarian</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Item 2: Almond Croissant -->
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="images/snack-croissant.svg" alt="Freshly baked golden almond croissant topped with toasted almond flakes" width="400" height="300">
+              <span class="card-tag">Fresh Daily</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Flaky Almond Croissant</h3>
+                <span class="card-price">$4.25</span>
+              </div>
+              <p class="card-text">
+                Twice-baked French butter croissant filled with luscious almond frangipane cream and topped with toasted almond flakes.
+              </p>
+              <div class="card-meta">
+                <span>Category: Snacks</span>
+                <span class="menu-dietary-badge">Vegetarian</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Item 3: Tiramisu -->
+          <article class="card">
+            <div class="card-img-wrap">
+              <img src="images/dessert-tiramisu.svg" alt="Velvet espresso tiramisu layered with mascarpone cream and cocoa dusting" width="400" height="300">
+              <span class="card-tag">House Specialty</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Velvet Tiramisu</h3>
+                <span class="card-price">$6.75</span>
+              </div>
+              <p class="card-text">
+                Delicate Italian ladyfingers soaked in our signature dark espresso, layered with whipped mascarpone and Valrhona cocoa.
+              </p>
+              <div class="card-meta">
+                <span>Category: Desserts</span>
+                <span class="menu-dietary-badge">House Favorite</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="menu.html" class="btn btn-primary">View Full Menu &amp; Pricing</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Warm Call to Action Strip -->
+    <section class="section" style="background: linear-gradient(135deg, #3D2314 0%, #23140C 100%); color: #FAF6F0; text-align: center;">
+      <div class="container" style="max-width: 720px;">
+        <span class="badge" style="background: rgba(196,128,70,0.25); color: #F6EDE3; border-color: rgba(196,128,70,0.4);">Join Us Today</span>
+        <h2 style="font-family: var(--font-heading); font-size: 2.4rem; margin-bottom: 1rem; color: #FFFFFF;">Ready for Your Perfect Brew?</h2>
+        <p style="color: #D3C4B8; font-size: 1.1rem; margin-bottom: 2rem;">
+          Reserve your favorite corner table for brunch, casual meetings, or afternoon reading. We look forward to welcoming you.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="reservation.html" class="btn btn-primary">Book Your Table</a>
+          <a href="contact.html" class="btn btn-secondary" style="border-color: #FAF6F0; color: #FAF6F0;">Find Our Location</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="Bean and Brew Home">
+            <img src="images/logo.svg" alt="" width="34" height="34" aria-hidden="true">
+            <span>Bean <span class="amp">&amp;</span> Brew</span>
+          </a>
+          <p>
+            An artisanal neighborhood café committed to ethical sourcing, exquisite roasts, and freshly baked moments of delight.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="reservation.html">Table Reservations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Hours Summary -->
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <ul class="footer-hours-list">
+            <li><strong>Mon – Fri:</strong> 7:00 AM – 8:00 PM</li>
+            <li><strong>Saturday:</strong> 8:00 AM – 9:00 PM</li>
+            <li><strong>Sunday:</strong> 8:00 AM – 9:00 PM</li>
+            <li><strong>Holidays:</strong> 8:00 AM – 6:00 PM</li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Address -->
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <p style="color: #D3C4B8; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.75rem;">
+            142 Roast &amp; Cinnamon Way<br>
+            Downtown Craft Quarter, NY 10012
+          </p>
+          <p style="color: #D3C4B8; font-size: 0.95rem;">
+            <strong>Phone:</strong> (555) 382-2326<br>
+            <strong>Email:</strong> hello@beanandbrewcafe.com
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Bean &amp; Brew Café. All rights reserved.</p>
+        <p>Crafted with warm care &amp; fresh beans.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Bean & Brew's handcrafted menu: specialty coffees, freshly baked morning snacks, and decadent artisan desserts.">
+  <title>Menu | Bean &amp; Brew Café</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Shared Header & Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-wrapper" aria-label="Main Navigation">
+        <a href="index.html" class="brand-logo" aria-label="Bean and Brew Home">
+          <img src="images/logo.svg" alt="" width="38" height="38" aria-hidden="true">
+          <span>Bean <span class="amp">&amp;</span> Brew</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link active" aria-current="page">Menu</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="reservation.html" class="nav-link">Reservation</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Desktop Action CTA -->
+        <div class="nav-actions">
+          <a href="reservation.html" class="btn btn-primary">Book a Table</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Menu Header -->
+    <section class="section" style="padding-bottom: 2rem;">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Artisanal Offerings</span>
+          <h1 class="section-title">Our Café Menu</h1>
+          <p class="section-subtitle">
+            Every beverage is pulled with precision and care; every pastry is mixed, rolled, and baked from scratch using pure organic ingredients.
+          </p>
+        </div>
+
+        <!-- Filter Category Tabs (JavaScript filtered) -->
+        <nav class="filter-nav" aria-label="Menu categories">
+          <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">
+            All Items
+          </button>
+          <button type="button" class="filter-btn" data-filter="coffee" aria-pressed="false">
+            Coffee
+          </button>
+          <button type="button" class="filter-btn" data-filter="snacks" aria-pressed="false">
+            Snacks
+          </button>
+          <button type="button" class="filter-btn" data-filter="desserts" aria-pressed="false">
+            Desserts
+          </button>
+        </nav>
+
+        <!-- Live announcement for screen readers -->
+        <div id="filterStatus" class="sr-only" aria-live="polite">Showing all menu items.</div>
+
+        <!-- Menu Items Grid -->
+        <div class="menu-grid" id="menuCatalog">
+          
+          <!-- COFFEE 1: Signature Caramel Macchiato -->
+          <article class="card menu-item" data-category="coffee">
+            <div class="card-img-wrap">
+              <img src="images/coffee-macchiato.svg" alt="Signature Caramel Macchiato in layered glassware" width="400" height="300" loading="lazy">
+              <span class="card-tag">Signature</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Caramel Macchiato</h2>
+                <span class="card-price">$5.50</span>
+              </div>
+              <p class="card-text">
+                Steamed whole or oat milk marked with our signature double espresso roast and topped with handcrafted Madagascar vanilla caramel drizzle.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Coffee</span>
+                <span>Vegetarian / Dairy-Free Option</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- COFFEE 2: Artisanal Café Latte -->
+          <article class="card menu-item" data-category="coffee">
+            <div class="card-img-wrap">
+              <img src="images/coffee-latte.svg" alt="Artisanal Café Latte in white ceramic cup with rosette art" width="400" height="300" loading="lazy">
+              <span class="card-tag">Classic</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Artisanal Café Latte</h2>
+                <span class="card-price">$4.75</span>
+              </div>
+              <p class="card-text">
+                Rich single-origin espresso harmonized with micro-foamed milk poured with delicate rosette latte art. Silky, smooth, and balanced.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Coffee</span>
+                <span>Hot or Iced</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- COFFEE 3: Vanilla Nitro Cold Brew -->
+          <article class="card menu-item" data-category="coffee">
+            <div class="card-img-wrap">
+              <img src="images/coffee-coldbrew.svg" alt="Vanilla Nitro Cold Brew with dense cascading crema" width="400" height="300" loading="lazy">
+              <span class="card-tag">Cold &amp; Bold</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Nitro Cold Brew</h2>
+                <span class="card-price">$5.25</span>
+              </div>
+              <p class="card-text">
+                Steeped for 20 hours and infused with food-grade nitrogen on draft for a naturally sweet, velvety Guinness-like cascading foam head.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Coffee</span>
+                <span>Zero Sugar / Vegan</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- COFFEE 4: Classic Double Espresso -->
+          <article class="card menu-item" data-category="coffee">
+            <div class="card-img-wrap">
+              <img src="images/logo.svg" alt="Espresso served with golden crema" width="400" height="300" loading="lazy" style="padding: 2rem; object-fit: contain;">
+              <span class="card-tag">Pure Roast</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Double Espresso</h2>
+                <span class="card-price">$3.50</span>
+              </div>
+              <p class="card-text">
+                A concentrated 2oz shot of our seasonal Ethiopian and Colombian blend. Notes of dark chocolate, candied citrus, and jasmine bloom.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Coffee</span>
+                <span>Direct Trade</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SNACK 1: Flaky Almond Croissant -->
+          <article class="card menu-item" data-category="snacks">
+            <div class="card-img-wrap">
+              <img src="images/snack-croissant.svg" alt="French Almond Croissant with toasted sliced almonds" width="400" height="300" loading="lazy">
+              <span class="card-tag">Bakery</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Flaky Almond Croissant</h2>
+                <span class="card-price">$4.25</span>
+              </div>
+              <p class="card-text">
+                Authentic laminated dough made with European cultured butter, filled with rich almond frangipane, and dusted with powdered sugar.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Snacks</span>
+                <span>Baked at 6:00 AM</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SNACK 2: Avocado Sourdough Toast -->
+          <article class="card menu-item" data-category="snacks">
+            <div class="card-img-wrap">
+              <img src="images/snack-toast.svg" alt="Avocado Sourdough Toast on rustic wooden board" width="400" height="300" loading="lazy">
+              <span class="card-tag">Savory</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Avocado Sourdough Toast</h2>
+                <span class="card-price">$8.50</span>
+              </div>
+              <p class="card-text">
+                Thick slice of house country sourdough topped with crushed Hass avocado, heirloom cherry tomatoes, cold-pressed olive oil, and chili flakes.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Snacks</span>
+                <span>Vegan / High Fiber</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SNACK 3: Spinach & Feta Savory Quiche -->
+          <article class="card menu-item" data-category="snacks">
+            <div class="card-img-wrap">
+              <img src="images/snack-quiche.svg" alt="Spinach and Feta Quiche slice" width="400" height="300" loading="lazy">
+              <span class="card-tag">Warm Bake</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Spinach &amp; Feta Quiche</h2>
+                <span class="card-price">$7.25</span>
+              </div>
+              <p class="card-text">
+                Pastured organic eggs whisked with baby spinach, tangy Greek sheep's milk feta, caramelized shallots, and fresh nutmeg in a buttery fluted crust.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Snacks</span>
+                <span>Vegetarian</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DESSERT 1: Velvet Espresso Tiramisu -->
+          <article class="card menu-item" data-category="desserts">
+            <div class="card-img-wrap">
+              <img src="images/dessert-tiramisu.svg" alt="Velvet espresso tiramisu layered dessert" width="400" height="300" loading="lazy">
+              <span class="card-tag">Patisserie</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Velvet Tiramisu</h2>
+                <span class="card-price">$6.75</span>
+              </div>
+              <p class="card-text">
+                Savoiardi biscuits drenched in freshly pulled dark espresso, layered with airy whipped mascarpone mousse, and generously dusted with cocoa.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Desserts</span>
+                <span>Chef's Recipe</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DESSERT 2: Basque Burnt Cheesecake -->
+          <article class="card menu-item" data-category="desserts">
+            <div class="card-img-wrap">
+              <img src="images/dessert-cheesecake.svg" alt="Basque Burnt Cheesecake with raspberry garnish" width="400" height="300" loading="lazy">
+              <span class="card-tag">Signature Bake</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Basque Cheesecake</h2>
+                <span class="card-price">$6.50</span>
+              </div>
+              <p class="card-text">
+                Caramelized dark crust with an ultra-custardy, melt-in-your-mouth center. Baked at high heat for maximum depth of flavor and contrast.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Desserts</span>
+                <span>Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DESSERT 3: Double Fudge Espresso Brownie -->
+          <article class="card menu-item" data-category="desserts">
+            <div class="card-img-wrap">
+              <img src="images/dessert-brownie.svg" alt="Double Fudge Espresso Brownie with vanilla gelato scoop" width="400" height="300" loading="lazy">
+              <span class="card-tag">Decadent</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h2 class="card-title">Espresso Fudge Brownie</h2>
+                <span class="card-price">$5.25</span>
+              </div>
+              <p class="card-text">
+                70% dark Belgian chocolate brownie folded with espresso-soaked chocolate chips and finished with flakes of Maldon sea salt.
+              </p>
+              <div class="card-meta">
+                <span class="menu-dietary-badge">Desserts</span>
+                <span>Warm with Gelato +$1.50</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Dietary & Catering Notice -->
+    <section class="section section-alt">
+      <div class="container" style="text-align: center; max-width: 720px;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.6rem; color: var(--color-primary-dark); margin-bottom: 0.75rem;">
+          Special Dietary Inquiries &amp; Large Orders
+        </h3>
+        <p style="color: var(--color-text-muted); font-size: 1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+          We happily offer oat milk, almond milk, decaf roasts, and gluten-free pastries. If you have severe allergies or are planning corporate morning catering, please let us know in advance!
+        </p>
+        <a href="contact.html" class="btn btn-secondary">Inquire About Catering</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="Bean and Brew Home">
+            <img src="images/logo.svg" alt="" width="34" height="34" aria-hidden="true">
+            <span>Bean <span class="amp">&amp;</span> Brew</span>
+          </a>
+          <p>
+            An artisanal neighborhood café committed to ethical sourcing, exquisite roasts, and freshly baked moments of delight.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="reservation.html">Table Reservations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <ul class="footer-hours-list">
+            <li><strong>Mon – Fri:</strong> 7:00 AM – 8:00 PM</li>
+            <li><strong>Saturday:</strong> 8:00 AM – 9:00 PM</li>
+            <li><strong>Sunday:</strong> 8:00 AM – 9:00 PM</li>
+            <li><strong>Holidays:</strong> 8:00 AM – 6:00 PM</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <p style="color: #D3C4B8; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.75rem;">
+            142 Roast &amp; Cinnamon Way<br>
+            Downtown Craft Quarter, NY 10012
+          </p>
+          <p style="color: #D3C4B8; font-size: 0.95rem;">
+            <strong>Phone:</strong> (555) 382-2326<br>
+            <strong>Email:</strong> hello@beanandbrewcafe.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Bean &amp; Brew Café. All rights reserved.</p>
+        <p>Crafted with warm care &amp; fresh beans.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

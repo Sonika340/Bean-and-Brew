@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" aria-label="Spinach &amp; Feta Savory Quiche">
+  <defs>
+    <linearGradient id="quicheCrust" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DE935F" />
+      <stop offset="100%" stop-color="#8C4E23" />
+    </linearGradient>
+    <linearGradient id="custardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCEBB6" />
+      <stop offset="100%" stop-color="#E8C872" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F3E9DF" />
+  <circle cx="200" cy="150" r="120" fill="#FAF6F0" opacity="0.7" />
+
+  <!-- Plate -->
+  <ellipse cx="200" cy="225" rx="140" ry="40" fill="#3D2314" opacity="0.15" />
+  <ellipse cx="200" cy="215" rx="135" ry="36" fill="#FFFFFF" stroke="#CBB49E" stroke-width="2.5" />
+  <ellipse cx="200" cy="215" rx="115" ry="28" fill="#FDFBF7" />
+
+  <!-- Quiche Slice Perspective -->
+  <!-- Fluted Crust Rim -->
+  <path d="M 120 180 L 195 215 L 290 165 C 285 135 250 115 195 115 C 150 115 125 140 120 180 Z" fill="url(#quicheCrust)" stroke="#5A3821" stroke-width="2.5" />
+
+  <!-- Custard Egg Center -->
+  <path d="M 128 175 L 195 208 L 280 162 C 275 138 245 122 195 122 C 155 122 132 142 128 175 Z" fill="url(#custardGrad)" />
+
+  <!-- Front Cut Sides of the Slice -->
+  <path d="M 195 208 L 195 228 L 128 195 L 128 175 Z" fill="#8C4E23" />
+  <path d="M 195 208 L 195 228 L 280 182 L 280 162 Z" fill="#DE935F" />
+
+  <!-- Spinach Leaves baked in -->
+  <g fill="#2A6F48" opacity="0.9">
+    <ellipse cx="160" cy="160" rx="14" ry="7" transform="rotate(-25 160 160)" />
+    <ellipse cx="185" cy="145" rx="12" ry="6" transform="rotate(30 185 145)" />
+    <ellipse cx="220" cy="150" rx="15" ry="8" transform="rotate(-15 220 150)" />
+    <ellipse cx="245" cy="140" rx="11" ry="6" transform="rotate(20 245 140)" />
+    <ellipse cx="190" cy="180" rx="13" ry="6" transform="rotate(-40 190 180)" />
+    <ellipse cx="225" cy="175" rx="12" ry="7" transform="rotate(10 225 175)" />
+  </g>
+
+  <!-- Crumbled Feta Cheese cubes -->
+  <g fill="#FFFFFF" stroke="#E5D5C5" stroke-width="1.5">
+    <rect x="170" y="150" width="12" height="10" rx="2" transform="rotate(15 170 150)" />
+    <rect x="205" y="135" width="14" height="11" rx="2" transform="rotate(-10 205 135)" />
+    <rect x="240" y="155" width="13" height="9" rx="2" transform="rotate(25 240 155)" />
+    <rect x="150" y="170" width="11" height="9" rx="2" transform="rotate(-20 150 170)" />
+    <rect x="205" y="180" width="12" height="10" rx="2" transform="rotate(5 205 180)" />
+  </g>
+
+  <!-- Golden Brown Toasted spots on top -->
+  <g fill="#B26A3B" opacity="0.6">
+    <ellipse cx="180" cy="132" rx="8" ry="4" />
+    <ellipse cx="230" cy="130" rx="9" ry="5" />
+    <ellipse cx="160" cy="175" rx="7" ry="3.5" />
+    <ellipse cx="215" cy="195" rx="6" ry="3" />
+  </g>
+</svg>

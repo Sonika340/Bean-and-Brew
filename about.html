@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the story, craft philosophy, and opening hours of Bean & Brew artisanal café.">
+  <title>About Us | Bean &amp; Brew Café</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Shared Header & Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-wrapper" aria-label="Main Navigation">
+        <a href="index.html" class="brand-logo" aria-label="Bean and Brew Home">
+          <img src="images/logo.svg" alt="" width="38" height="38" aria-hidden="true">
+          <span>Bean <span class="amp">&amp;</span> Brew</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="about.html" class="nav-link active" aria-current="page">About</a></li>
+          <li><a href="reservation.html" class="nav-link">Reservation</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Desktop Action CTA -->
+        <div class="nav-actions">
+          <a href="reservation.html" class="btn btn-primary">Book a Table</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Story Section -->
+    <section class="section" aria-labelledby="storyHeading">
+      <div class="container">
+        <div class="about-hero-grid">
+          <div class="about-text">
+            <span class="badge">Our Journey &amp; Passion</span>
+            <h1 id="storyHeading">The Story of Bean &amp; Brew</h1>
+            <p>
+              Bean &amp; Brew started in the spring of 2018 with a humble, hand-restored vintage coffee cart and a singular mission: to strip away pretension from specialty coffee and replace it with genuine warmth, artisanal dedication, and neighborhood hospitality.
+            </p>
+            <p>
+              What began with two lifelong coffee roasters serving pour-overs to morning commuters on corner avenues has grown into a bustling, sunlit haven in the heart of the Craft Quarter. Every detail—from our reclaimed wood counters and hand-thrown ceramic mugs to our custom brass micro-roaster—was chosen to inspire slower, more mindful mornings.
+            </p>
+            <p>
+              We partner directly with regenerative coffee smallholders in Huila, Yirgacheffe, and Antigua, paying up to 45% above Fair Trade minimums to ensure farmer livelihood and soil health. Back in our kitchen, our pastry chefs arrive at dawn every day to roll croissants and whip mascarpone so your cup is always matched with perfection.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="images/about-cafe.svg" alt="Small batch coffee roaster with single origin beans at Bean and Brew" width="600" height="500">
+          </div>
+        </div>
+
+        <!-- Café Values -->
+        <div class="section-header" style="margin-top: 4rem;">
+          <span class="badge">What Drives Us</span>
+          <h2 class="section-title">Rooted in Purpose</h2>
+          <p class="section-subtitle">The guiding principles behind every roast and customer interaction.</p>
+        </div>
+
+        <div class="values-grid">
+          <article class="value-card">
+            <div class="perk-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+            </div>
+            <h3>Direct Trade &amp; Integrity</h3>
+            <p>We know our growers by name. Sourcing directly eliminates middlemen, provides economic stability to origin communities, and guarantees traceable single-origin quality.</p>
+          </article>
+
+          <article class="value-card">
+            <div class="perk-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+              </svg>
+            </div>
+            <h3>Micro-Batch Roasting</h3>
+            <p>We roast in small 10kg batches three times a week. This ensures the beans in your cup are at peak degassing vibrancy, unlocking natural sweetness without bitterness.</p>
+          </article>
+
+          <article class="value-card">
+            <div class="perk-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+              </svg>
+            </div>
+            <h3>Community Living Room</h3>
+            <p>From casual laptop workstations to book clubs and acoustic open-mic evenings, Bean &amp; Brew is designed as a peaceful sanctuary for our community.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opening Hours Section -->
+    <section class="section section-alt" aria-labelledby="hoursHeading">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Planning Your Visit</span>
+          <h2 id="hoursHeading" class="section-title">Café Opening Hours</h2>
+          <p class="section-subtitle">
+            We are open 7 days a week to brew your morning fuel, afternoon pick-me-up, and evening desserts.
+          </p>
+        </div>
+
+        <div class="hours-card">
+          <table class="hours-table" aria-label="Café weekly operating hours">
+            <thead>
+              <tr class="sr-only">
+                <th>Day</th>
+                <th>Hours</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="day">Monday</td>
+                <td class="time">7:00 AM – 8:00 PM</td>
+                <td class="badge-cell"><span class="status-badge status-open">Regular</span></td>
+              </tr>
+              <tr>
+                <td class="day">Tuesday</td>
+                <td class="time">7:00 AM – 8:00 PM</td>
+                <td class="badge-cell"><span class="status-badge status-open">Regular</span></td>
+              </tr>
+              <tr>
+                <td class="day">Wednesday</td>
+                <td class="time">7:00 AM – 8:00 PM</td>
+                <td class="badge-cell"><span class="status-badge status-open">Regular</span></td>
+              </tr>
+              <tr>
+                <td class="day">Thursday</td>
+                <td class="time">7:00 AM – 8:00 PM</td>
+                <td class="badge-cell"><span class="status-badge status-open">Regular</span></td>
+              </tr>
+              <tr>
+                <td class="day">Friday</td>
+                <td class="time">7:00 AM – 8:00 PM</td>
+                <td class="badge-cell"><span class="status-badge status-open">Regular</span></td>
+              </tr>
+              <tr>
+                <td class="day">Saturday</td>
+                <td class="time">8:00 AM – 9:00 PM</td>
+                <td class="badge-cell"><span class="status-badge status-open">Brunch</span></td>
+              </tr>
+              <tr>
+                <td class="day">Sunday</td>
+                <td class="time">8:00 AM – 9:00 PM</td>
+                <td class="badge-cell"><span class="status-badge status-open">Brunch</span></td>
+              </tr>
+              <tr>
+                <td class="day">Public Holidays</td>
+                <td class="time">8:00 AM – 6:00 PM</td>
+                <td class="badge-cell"><span class="status-badge" style="background:#FFF0D6; color:#8C4E23;">Special</span></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 1px dashed var(--color-border); font-size: 0.9rem; color: var(--color-text-muted); text-align: center;">
+            <p><strong>Note:</strong> Our scratch kitchen closes 30 minutes prior to café closing. Hand-crafted espresso and chilled beverages are served until the doors close.</p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="reservation.html" class="btn btn-primary">Book a Table for Your Visit</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="Bean and Brew Home">
+            <img src="images/logo.svg" alt="" width="34" height="34" aria-hidden="true">
+            <span>Bean <span class="amp">&amp;</span> Brew</span>
+          </a>
+          <p>
+            An artisanal neighborhood café committed to ethical sourcing, exquisite roasts, and freshly baked moments of delight.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="reservation.html">Table Reservations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <ul class="footer-hours-list">
+            <li><strong>Mon – Fri:</strong> 7:00 AM – 8:00 PM</li>
+            <li><strong>Saturday:</strong> 8:00 AM – 9:00 PM</li>
+            <li><strong>Sunday:</strong> 8:00 AM – 9:00 PM</li>
+            <li><strong>Holidays:</strong> 8:00 AM – 6:00 PM</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <p style="color: #D3C4B8; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.75rem;">
+            142 Roast &amp; Cinnamon Way<br>
+            Downtown Craft Quarter, NY 10012
+          </p>
+          <p style="color: #D3C4B8; font-size: 0.95rem;">
+            <strong>Phone:</strong> (555) 382-2326<br>
+            <strong>Email:</strong> hello@beanandbrewcafe.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Bean &amp; Brew Café. All rights reserved.</p>
+        <p>Crafted with warm care &amp; fresh beans.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" aria-label="Warm Café Interior of Bean and Brew">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0" />
+      <stop offset="100%" stop-color="#EFE2D4" />
+    </linearGradient>
+    <linearGradient id="woodBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5A3821" />
+      <stop offset="50%" stop-color="#3D2314" />
+      <stop offset="100%" stop-color="#23140C" />
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4D06F" />
+      <stop offset="100%" stop-color="#C48046" />
+    </linearGradient>
+    <radialGradient id="lightGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF2D6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FFF2D6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Wall -->
+  <rect width="800" height="600" fill="url(#wallGrad)" />
+  
+  <!-- Subtle Brick Wall Texture Lines -->
+  <g stroke="#E5D5C5" stroke-width="1.5" opacity="0.6">
+    <line x1="50" y1="80" x2="750" y2="80" />
+    <line x1="50" y1="130" x2="750" y2="130" />
+    <line x1="50" y1="180" x2="750" y2="180" />
+    <line x1="50" y1="230" x2="750" y2="230" />
+    <line x1="50" y1="280" x2="750" y2="280" />
+  </g>
+
+  <!-- Large Window Arch with greenery outside -->
+  <path d="M 80 320 L 80 180 A 120 120 0 0 1 320 180 L 320 320 Z" fill="#E8F4F8" stroke="#3D2314" stroke-width="8" />
+  <circle cx="200" cy="220" r="70" fill="#A8D5BA" opacity="0.4" />
+  <circle cx="160" cy="240" r="50" fill="#88C29D" opacity="0.5" />
+  <line x1="200" y1="60" x2="200" y2="320" stroke="#3D2314" stroke-width="4" />
+  <line x1="80" y1="180" x2="320" y2="180" stroke="#3D2314" stroke-width="4" />
+
+  <!-- Blackboard Menu on Wall -->
+  <rect x="420" y="80" width="300" height="190" rx="10" fill="#23140C" stroke="#C48046" stroke-width="8" />
+  <text x="570" y="125" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FAF6F0" text-anchor="middle">BEAN &amp; BREW</text>
+  <line x1="470" y1="140" x2="670" y2="140" stroke="#C48046" stroke-width="2" />
+  <text x="450" y="170" font-family="'Courier New', monospace" font-size="14" fill="#E5D5C5">ESPRESSO .......... $3.50</text>
+  <text x="450" y="195" font-family="'Courier New', monospace" font-size="14" fill="#E5D5C5">CAPPUCCINO ........ $4.50</text>
+  <text x="450" y="220" font-family="'Courier New', monospace" font-size="14" fill="#E5D5C5">MACCHIATO ......... $5.50</text>
+  <text x="450" y="245" font-family="'Courier New', monospace" font-size="14" fill="#F4D06F">SPECIAL: CHERRY MOCHA</text>
+
+  <!-- Floating Shelf with Coffee Jars -->
+  <rect x="400" y="290" width="340" height="14" rx="4" fill="#5A3821" stroke="#23140C" stroke-width="2" />
+  <rect x="420" y="235" width="45" height="55" rx="6" fill="#F3E9DF" stroke="#3D2314" stroke-width="3" />
+  <rect x="430" y="225" width="25" height="10" rx="2" fill="#C48046" />
+  <text x="442" y="265" font-size="10" font-weight="bold" fill="#3D2314" text-anchor="middle">ROAST</text>
+
+  <rect x="480" y="240" width="40" height="50" rx="6" fill="#F3E9DF" stroke="#3D2314" stroke-width="3" />
+  <rect x="490" y="232" width="20" height="8" rx="2" fill="#C48046" />
+  <text x="500" y="270" font-size="10" font-weight="bold" fill="#3D2314" text-anchor="middle">DECAF</text>
+
+  <!-- Plant pot on shelf -->
+  <path d="M 545 290 L 552 260 L 578 260 L 585 290 Z" fill="#C48046" stroke="#23140C" stroke-width="2" />
+  <path d="M 565 260 Q 550 230 540 240 Q 560 250 565 260" fill="#2A6F48" />
+  <path d="M 565 260 Q 585 225 595 235 Q 575 250 565 260" fill="#3A8A5C" />
+  <path d="M 565 260 Q 565 210 570 210 Q 575 235 565 260" fill="#2A6F48" />
+
+  <!-- Pendant Lights hanging from ceiling -->
+  <line x1="220" y1="0" x2="220" y2="90" stroke="#23140C" stroke-width="3" />
+  <path d="M 195 125 L 245 125 L 235 90 L 205 90 Z" fill="url(#brassGrad)" stroke="#3D2314" stroke-width="2" />
+  <circle cx="220" cy="130" r="10" fill="#FFF2D6" />
+  <circle cx="220" cy="150" r="60" fill="url(#lightGlow)" />
+
+  <line x1="680" y1="0" x2="680" y2="70" stroke="#23140C" stroke-width="3" />
+  <path d="M 655 105 L 705 105 L 695 70 L 665 70 Z" fill="url(#brassGrad)" stroke="#3D2314" stroke-width="2" />
+  <circle cx="680" cy="110" r="10" fill="#FFF2D6" />
+  <circle cx="680" cy="130" r="60" fill="url(#lightGlow)" />
+
+  <!-- Hardwood Counter Surface -->
+  <rect x="0" y="380" width="800" height="220" fill="url(#woodBar)" />
+  <rect x="0" y="380" width="800" height="22" fill="#FAF6F0" opacity="0.2" />
+  <line x1="0" y1="402" x2="800" y2="402" stroke="#23140C" stroke-width="4" />
+  <!-- Counter vertical wood panels -->
+  <g stroke="#23140C" stroke-width="2" opacity="0.4">
+    <line x1="120" y1="402" x2="120" y2="600" />
+    <line x1="240" y1="402" x2="240" y2="600" />
+    <line x1="360" y1="402" x2="360" y2="600" />
+    <line x1="480" y1="402" x2="480" y2="600" />
+    <line x1="600" y1="402" x2="600" y2="600" />
+    <line x1="720" y1="402" x2="720" y2="600" />
+  </g>
+
+  <!-- Espresso Machine on Counter -->
+  <g id="espressoMachine">
+    <rect x="220" y="270" width="180" height="115" rx="8" fill="#D3C4B8" stroke="#23140C" stroke-width="4" />
+    <rect x="240" y="285" width="140" height="40" rx="4" fill="#3D2314" />
+    <circle cx="265" cy="305" r="8" fill="#C48046" stroke="#FAF6F0" stroke-width="2" />
+    <circle cx="295" cy="305" r="8" fill="#C48046" stroke="#FAF6F0" stroke-width="2" />
+    <circle cx="325" cy="305" r="8" fill="#C48046" stroke="#FAF6F0" stroke-width="2" />
+    <circle cx="355" cy="305" r="8" fill="#2A6F48" stroke="#FAF6F0" stroke-width="2" />
+    <!-- Groupheads -->
+    <rect x="255" y="325" width="30" height="25" fill="#5A3821" stroke="#23140C" stroke-width="2" />
+    <rect x="335" y="325" width="30" height="25" fill="#5A3821" stroke="#23140C" stroke-width="2" />
+    <!-- Portafilter Handles -->
+    <path d="M 270 338 L 230 355" stroke="#23140C" stroke-width="6" stroke-linecap="round" />
+    <path d="M 350 338 L 390 355" stroke="#23140C" stroke-width="6" stroke-linecap="round" />
+    <!-- Drip tray -->
+    <rect x="235" y="365" width="150" height="15" fill="#7D6B5D" stroke="#23140C" stroke-width="2" />
+  </g>
+
+  <!-- Steaming Coffee Cup on Saucer on the Bar -->
+  <g id="steamingCup" transform="translate(480, 320)">
+    <ellipse cx="60" cy="62" rx="42" ry="9" fill="#23140C" opacity="0.3" />
+    <ellipse cx="60" cy="58" rx="40" ry="7" fill="#FAF6F0" stroke="#3D2314" stroke-width="3" />
+    <path d="M 26 22 L 32 50 C 35 56 46 60 60 60 C 74 60 85 56 88 50 L 94 22 Z" fill="#C48046" stroke="#3D2314" stroke-width="3" />
+    <ellipse cx="60" cy="22" rx="34" ry="7" fill="#FAF6F0" stroke="#3D2314" stroke-width="3" />
+    <ellipse cx="60" cy="22" rx="28" ry="4" fill="#3D2314" />
+    <ellipse cx="60" cy="22" rx="22" ry="3" fill="#C48046" opacity="0.7" />
+    <path d="M 90 28 C 104 28 106 44 88 46" fill="none" stroke="#3D2314" stroke-width="4" stroke-linecap="round" />
+    <!-- Latte Art Rosette -->
+    <path d="M 52 22 Q 60 19 68 22 Q 60 25 52 22" fill="#FAF6F0" />
+    <circle cx="60" cy="22" r="3" fill="#FAF6F0" />
+    <!-- Warm Steam -->
+    <path d="M 50 12 Q 44 0 54 -10" fill="none" stroke="#FAF6F0" stroke-width="3" stroke-linecap="round" opacity="0.7" />
+    <path d="M 62 10 Q 70 -2 60 -14" fill="none" stroke="#FAF6F0" stroke-width="3" stroke-linecap="round" opacity="0.7" />
+    <path d="M 72 14 Q 78 2 72 -8" fill="none" stroke="#FAF6F0" stroke-width="3" stroke-linecap="round" opacity="0.7" />
+  </g>
+
+  <!-- Glass pastry dome with Croissant -->
+  <g transform="translate(620, 310)">
+    <ellipse cx="60" cy="72" rx="55" ry="10" fill="#23140C" opacity="0.3" />
+    <rect x="15" y="65" width="90" height="8" rx="3" fill="#E5D5C5" stroke="#3D2314" stroke-width="2" />
+    <!-- Croissant -->
+    <path d="M 35 60 C 40 45 80 45 85 60 C 75 62 60 63 35 60 Z" fill="#C48046" stroke="#5A3821" stroke-width="2" />
+    <path d="M 45 52 C 55 46 65 46 75 52" stroke="#5A3821" stroke-width="2" fill="none" />
+    <!-- Glass Bell Dome -->
+    <path d="M 20 65 A 40 40 0 0 1 100 65 Z" fill="#FFFFFF" fill-opacity="0.3" stroke="#FAF6F0" stroke-width="2" />
+    <circle cx="60" cy="22" r="7" fill="#C48046" stroke="#23140C" stroke-width="2" />
+  </g>
+</svg>

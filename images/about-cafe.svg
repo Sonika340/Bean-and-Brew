@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500" aria-label="Coffee Roasting and Handcrafting at Bean and Brew">
+  <defs>
+    <linearGradient id="roasterMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A2E1B" />
+      <stop offset="50%" stop-color="#23140C" />
+      <stop offset="100%" stop-color="#140803" />
+    </linearGradient>
+    <linearGradient id="copperDrum" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DE935F" />
+      <stop offset="50%" stop-color="#C48046" />
+      <stop offset="100%" stop-color="#8C4E23" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Warm Canvas -->
+  <rect width="600" height="500" rx="16" fill="#F3E9DF" />
+  <circle cx="300" cy="250" r="210" fill="#FAF6F0" opacity="0.8" />
+
+  <!-- Artisanal Coffee Roaster & Tray -->
+  <!-- Cooling Tray (Circular Basin) -->
+  <ellipse cx="300" cy="400" rx="200" ry="50" fill="#23140C" opacity="0.25" />
+  <ellipse cx="300" cy="385" rx="190" ry="45" fill="#3D2314" stroke="#23140C" stroke-width="4" />
+  <ellipse cx="300" cy="385" rx="170" ry="36" fill="#5A3821" />
+
+  <!-- Roasting Drum (Copper cylinder) -->
+  <rect x="180" y="160" width="240" height="150" rx="12" fill="url(#copperDrum)" stroke="#23140C" stroke-width="4" />
+  <ellipse cx="300" cy="160" rx="120" ry="25" fill="#DE935F" stroke="#23140C" stroke-width="3" />
+  <!-- Sight glass window showing roasting beans -->
+  <circle cx="300" cy="235" r="34" fill="#23140C" stroke="#FAF6F0" stroke-width="4" />
+  <circle cx="300" cy="235" r="28" fill="#F4D06F" opacity="0.3" />
+  <g fill="#FAF6F0" opacity="0.8">
+    <ellipse cx="295" cy="230" rx="6" ry="4" transform="rotate(30 295 230)" />
+    <ellipse cx="310" cy="240" rx="7" ry="4" transform="rotate(-20 310 240)" />
+    <ellipse cx="290" cy="245" rx="5" ry="3.5" transform="rotate(45 290 245)" />
+  </g>
+
+  <!-- Roaster Hopper (Top funnel where green beans enter) -->
+  <path d="M 240 80 L 360 80 L 320 160 L 280 160 Z" fill="url(#roasterMetal)" stroke="#23140C" stroke-width="3" />
+  <ellipse cx="300" cy="80" rx="60" ry="14" fill="#5A3821" stroke="#23140C" stroke-width="3" />
+  <!-- Green raw coffee beans inside hopper -->
+  <g fill="#7FB069" opacity="0.9">
+    <circle cx="285" cy="80" r="5" />
+    <circle cx="300" cy="82" r="6" />
+    <circle cx="315" cy="79" r="5" />
+    <circle cx="295" cy="75" r="4.5" />
+    <circle cx="310" cy="75" r="5.5" />
+  </g>
+
+  <!-- Exhaust Flue Pipe -->
+  <rect x="360" y="40" width="30" height="130" fill="#3D2314" stroke="#23140C" stroke-width="3" />
+  <path d="M 360 40 L 440 20 L 440 45 L 390 65 Z" fill="#3D2314" stroke="#23140C" stroke-width="2" />
+
+  <!-- Fresh Roasted Beans in Cooling Tray -->
+  <g fill="#3D2314" stroke="#23140C" stroke-width="1">
+    <ellipse cx="220" cy="380" rx="8" ry="5.5" transform="rotate(-15 220 380)" />
+    <ellipse cx="250" cy="390" rx="9" ry="6" transform="rotate(25 250 390)" />
+    <ellipse cx="280" cy="375" rx="8" ry="5.5" transform="rotate(40 280 375)" />
+    <ellipse cx="310" cy="395" rx="9" ry="6" transform="rotate(-30 310 395)" />
+    <ellipse cx="340" cy="380" rx="8" ry="5.5" transform="rotate(10 340 380)" />
+    <ellipse cx="370" cy="390" rx="9" ry="6" transform="rotate(-45 370 390)" />
+    <ellipse cx="200" cy="375" rx="8" ry="5.5" transform="rotate(35 200 375)" />
+    <ellipse cx="260" cy="405" rx="9" ry="6" transform="rotate(-10 260 405)" />
+    <ellipse cx="330" cy="405" rx="8" ry="5.5" transform="rotate(50 330 405)" />
+    <ellipse cx="390" cy="380" rx="9" ry="6" transform="rotate(-20 390 380)" />
+  </g>
+
+  <!-- Rotating Stirring Agitator Arms in the basin -->
+  <line x1="170" y1="385" x2="430" y2="385" stroke="#FAF6F0" stroke-width="5" stroke-linecap="round" />
+  <circle cx="300" cy="385" r="14" fill="#C48046" stroke="#23140C" stroke-width="3" />
+
+  <!-- Aroma and Roasting Steam -->
+  <path d="M 230 140 Q 210 100 230 60" fill="none" stroke="#C48046" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+  <path d="M 300 130 Q 320 80 290 40" fill="none" stroke="#C48046" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Badge at corner: "100% Single Origin" -->
+  <g transform="translate(420, 100)">
+    <circle cx="50" cy="50" r="45" fill="#FAF6F0" stroke="#C48046" stroke-width="3" />
+    <circle cx="50" cy="50" r="38" fill="#3D2314" />
+    <text x="50" y="44" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#FAF6F0" text-anchor="middle">ARTISANAL</text>
+    <text x="50" y="58" font-family="sans-serif" font-size="9" font-weight="bold" fill="#F4D06F" text-anchor="middle">SMALL BATCH</text>
+    <text x="50" y="70" font-family="Georgia, serif" font-size="10" fill="#E5D5C5" text-anchor="middle">ROASTED</text>
+  </g>
+</svg>

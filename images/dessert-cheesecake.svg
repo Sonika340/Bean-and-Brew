@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" aria-label="Basque Burnt Cheesecake">
+  <defs>
+    <linearGradient id="cheesecakeCream" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7" />
+      <stop offset="100%" stop-color="#FCEBB6" />
+    </linearGradient>
+    <linearGradient id="caramelizedBurnt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#23140C" />
+      <stop offset="60%" stop-color="#4A2E1B" />
+      <stop offset="100%" stop-color="#C48046" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F3E9DF" />
+  <circle cx="200" cy="150" r="120" fill="#FAF6F0" opacity="0.7" />
+
+  <!-- Plate -->
+  <ellipse cx="200" cy="225" rx="140" ry="40" fill="#3D2314" opacity="0.15" />
+  <ellipse cx="200" cy="218" rx="135" ry="36" fill="#FFFFFF" stroke="#CBB49E" stroke-width="2.5" />
+  <ellipse cx="200" cy="218" rx="115" ry="28" fill="#FDFBF7" />
+
+  <!-- Basque Cheesecake Slice -->
+  <!-- Back Crumpled Parchment Paper -->
+  <path d="M 115 130 Q 140 100 200 105 Q 260 100 285 130 L 295 195 L 105 195 Z" fill="#EFE2D4" stroke="#CBB49E" stroke-width="2" />
+
+  <!-- Dark Caramelized Burnt Top Surface -->
+  <path d="M 120 135 L 200 170 L 280 135 C 270 108 230 102 200 102 C 170 102 130 108 120 135 Z" fill="url(#caramelizedBurnt)" stroke="#23140C" stroke-width="2" />
+
+  <!-- Creamy Gooey Custard Interior Sides -->
+  <path d="M 120 135 L 120 185 L 200 220 L 200 170 Z" fill="url(#cheesecakeCream)" stroke="#E5D5C5" stroke-width="1.5" />
+  <path d="M 200 170 L 200 220 L 280 185 L 280 135 Z" fill="#F7E6B5" stroke="#E5D5C5" stroke-width="1.5" />
+
+  <!-- Ultra-Creamy Soft Center Drop -->
+  <path d="M 195 178 Q 200 195 205 178" fill="#FFF2CC" />
+
+  <!-- Burnt Caramelized Edge Shading -->
+  <path d="M 120 135 L 120 148 C 145 142 180 145 200 170 C 220 145 255 142 280 148 L 280 135 Z" fill="#4A2E1B" opacity="0.6" />
+
+  <!-- Raspberry Garnish on the plate -->
+  <g transform="translate(245, 195)">
+    <circle cx="10" cy="10" r="10" fill="#B02A37" />
+    <circle cx="6" cy="6" r="3" fill="#881B26" />
+    <circle cx="12" cy="6" r="3" fill="#881B26" />
+    <circle cx="6" cy="12" r="3" fill="#881B26" />
+    <circle cx="13" cy="12" r="3" fill="#881B26" />
+    <circle cx="10" cy="9" r="3" fill="#D94E5D" />
+    <!-- Mint sprig -->
+    <path d="M 18 4 Q 24 0 28 5 Q 22 10 18 4" fill="#2A6F48" />
+  </g>
+</svg>
